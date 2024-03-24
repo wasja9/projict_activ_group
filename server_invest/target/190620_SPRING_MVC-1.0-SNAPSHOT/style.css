@@ -1,0 +1,33 @@
+
+body{
+    background: #cccccc url("conf/bacground1.png");
+
+}
+
+
+.STILE_div_1{
+    background: #e5fde1;	/*цвет фона*/
+    border: #cccccc 5px double;
+    top: 0%;
+    margin-top: 0%;/*Отступ сверху*/
+    width: 80%; /*ширина*/
+    margin-left: 5%;/*Отступ слева*/
+}
+
+.STILE_div_2{
+    background: #e5fde1;	/*цвет фона*/
+    border: #cccccc 5px double;
+    top: 0%;
+    margin-top: 0%;/*Отступ сверху*/
+    width: 80%; /*ширина*/
+    margin-left: 5%;/*Отступ слева*/
+}
+
+.STILE_div_3{
+    background: #e5fde1;	/*цвет фона*/
+    border: #cccccc 5px double;
+    top: 0%;
+    margin-top: 0%;/*Отступ сверху*/
+    width: 80%; /*ширина*/
+    margin-left: 5%;/*Отступ слева*/
+}

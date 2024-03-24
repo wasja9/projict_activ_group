@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="_190620_SPRING_MVC:war exploded">
+    <output-path>$PROJECT_DIR$/target/190620_SPRING_MVC-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="_190620_SPRING_MVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.16.RELEASE" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.15.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:1.8.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.10.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.12" />
+          <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-annotations-api:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:9.0.27" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.18.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:9.0.27" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:9.0.27" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/190620_SPRING_MVC-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="_190620_SPRING_MVC/web/Web" />
+    </root>
+  </artifact>
+</component>
