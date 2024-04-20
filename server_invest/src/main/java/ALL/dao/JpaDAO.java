@@ -18,6 +18,7 @@ public class JpaDAO implements DAO<users, Long>{
 
 public JpaDAO() throws ServletException, IOException, Exception {
     connection = new MSconnector().MSconnector_TS();//Соединение с БД
+    connection.setAutoCommit(false);
 }
 
     @Override
@@ -27,9 +28,11 @@ public JpaDAO() throws ServletException, IOException, Exception {
         users user = null;
 
         PreparedStatement ps = connection.prepareStatement(sql);
+
             ps.setLong(1, id);
             ResultSet rs = ps.executeQuery();
-
+            connection.commit();// Завершение транзакции
+            connection.setAutoCommit(true);// Восстановление по умолчанию
             while (rs.next()) {
                 user = new users();
                // user.setId(rs.getInt("id"));
@@ -54,6 +57,8 @@ public JpaDAO() throws ServletException, IOException, Exception {
 
              Statement statement = connection.createStatement();
              ResultSet rs = statement.executeQuery(sql);
+             connection.commit();// Завершение транзакции
+             connection.setAutoCommit(true);// Восстановление по умолчанию
             while (rs.next()) {
                 users user = new users();
                 user.setId(rs.getInt(1));

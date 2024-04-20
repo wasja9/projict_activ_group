@@ -12,7 +12,7 @@ public class MSconnector {
     public Connection MSconnector_TS() throws SQLException, ClassNotFoundException, Exception {
         jdbcURL = "jdbc:sqlserver://localhost:1433;encrypt=true;trustServerCertificate=true";
         jdbcUsername = "mb_user";
-        jdbcPassword = "123456";
+        jdbcPassword = "********";
 
         //Statement stmt;
         //ResultSet rs;
@@ -48,7 +48,7 @@ public class MSconnector {
     public void MSconnector_TS() throws SQLException, ClassNotFoundException {
         jdbcURL = "jdbc:sqlserver://localhost:1433";
         jdbcUsername = "mb_user";
-        jdbcPassword = "123456";
+        jdbcPassword = "**********;
 
         System.out.println("con OK_1");
         Connection connection;

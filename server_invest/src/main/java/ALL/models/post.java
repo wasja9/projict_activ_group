@@ -15,6 +15,8 @@ import lombok.*;
  FROM [invest_nv].[dbo].[post]
  */
 public class post {
+    //public post(){};
+
     public long userId;
     public long id;
     public String title;

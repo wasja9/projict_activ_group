@@ -16,7 +16,6 @@ public class mapper_json {
     public Object deSerialization_in_CLASS(String JSON_str,Object T) throws IOException {
         StringReader RD = new StringReader(JSON_str);
         ObjectMapper mapper = new ObjectMapper();
-        Object t = T;
         return mapper.readValue(RD, T.getClass());
     }
 

@@ -7,6 +7,7 @@ import ALL.services.JpaService_post;
         import ALL.services.JpaService;
         import ALL.utils.MSconnector;
         import ALL.utils.mapper_json;
+        import ALL.utils.generate_token;
 
         import javax.persistence.Id;
         import javax.servlet.ServletException;
@@ -17,6 +18,7 @@ import ALL.services.JpaService_post;
         import java.sql.Connection;
         import java.sql.SQLException;
         import java.io.*;
+
 
         import javax.servlet.annotation.WebServlet;////!!!!!!!!!!!!!
 
@@ -58,6 +60,8 @@ public class DispatcherServ_jpa extends HttpServlet {
 //=======================save=======================================================================
             case ("/DispatcherServ/save"):
             {
+                System.out.println("Новый ТОКЕН: " + new generate_token().generate());
+
             //Конячья процетура чьтения из запроса в строку какого-то супер шифрованного запроса(BODY)
                 InputStream inputStream = req.getInputStream();
                 StringBuilder requestBody = new StringBuilder();
